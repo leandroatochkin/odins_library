@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="form-container">
+            <form id='book-form' action=''>
+                <fieldset>
+                <label for='title'>title ></label>
+                <input type='text' name='title' class='form-data' id='title'/>
+                <label for='author'>author ></label>
+                <input type='text' name='author' class='form-data' id='author'/>
+                <label for='pages'>pages ></label>
+                <input type='text' name='pages' class='form-data' id='pages'/>
+                <label for='read'>read?(Y/N)</label>
+                <input type='radio' name='read' value='true' class='radio-data'id='read-true'/>
+                <input type='radio' name='read' value='false' class='radio-data'id='read-false'/>
+                  <button type='submit' id="add-btn">ADD</button>
+                  <h3>BookShelf<span>tm</span></h3>
+                  </fieldset>
+              </form>
+        </div>
+        <div id="separator"></div>
+        <div id="container">
+            
+        </div>
+                  <script src="./index.js"  defer></script>
+    </body>
+</html>
